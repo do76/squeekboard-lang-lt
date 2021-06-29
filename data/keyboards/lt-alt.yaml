@@ -1,3 +1,12 @@
+# Personal Preference LT Keyboard
+# dp@8n.lt
+#
+# install:
+# mkdir ~/.local
+# mkdir ~/.local/share
+# mkdir ~/.local/share/squeekboard
+# mkdir ~/.local/share/squeekboard/keyboards
+# cd  ~/.local/share/squeekboard/keyboards && wget https://raw.githubusercontent.com/do76/squeekboard-lang-lt/master/data/keyboards/lt-alt.yaml 
 ---
 outlines:
     default: { width: 35.33, height: 52 }
@@ -30,10 +39,16 @@ views:
     eschars:
         - "ą č ę ė į š ų ū ž „"
         - "Ą Č Ę Ė Į Š Ų Ū Ž “"
-        - "show_numbers  « » ‍ ™ ∞ × 🇱🇹  BackSpace"
-        - "show_letters preferences show_eschars         space        ☄ ☿ Return"
+        - "show_numbers  « » ☄☿ ™ ∞ × 🇱🇹  BackSpace"
+        - "show_letters preferences show_eschars         space        ← → Return"
 
 buttons:
+    "←":
+        outline: "small"
+        keysym: "Left"
+    "→":
+        outline: "small"
+        keysym: "Right"
     Shift_L:
         action:
             locking:
