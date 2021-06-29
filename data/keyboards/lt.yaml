@@ -38,6 +38,9 @@ views:
         - "accents_show_upper   Ž X Č V B N M  BackSpace"
         - "show_numbers preferences         space        show_upper_accents Return"
 
+# ąčęėįšųū90-ž
+# ĄČĘĖĮŠŲŪ90-Ž
+# 1234567890-=
 
 buttons:
     Shift_L:
