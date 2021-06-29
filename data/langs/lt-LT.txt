@@ -1,0 +1,3 @@
+emoji Emoji
+terminal Terminal
+lt Lietuvių
